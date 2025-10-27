@@ -17,10 +17,10 @@ st.markdown("""
     <style>
         body, .stApp {
             background-color: #0e1117;
-            color: #f5f5f5;
+            color: blue;
         }
         .stSidebar, .css-1d391kg {
-            background-color: #1c1e26 !important;
+            background-color: light blue !important;
         }
         .stMarkdown, .stText, .stSubheader {
             color: #f5f5f5 !important;
@@ -41,7 +41,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---------------------- Title ----------------------
-st.title("🎭 Beautiful AI — Face Recognition")
+st.title("AI — Face Recognition")
 st.markdown("Upload an **image**, **video**, or use your **webcam** to test the custom Face Recognition pipeline.")
 
 # ---------------------- Sidebar ----------------------
@@ -129,4 +129,4 @@ elif mode == "💻 Webcam":
 
 # ---------------------- Footer ----------------------
 st.markdown("---")
-st.markdown("<center>🚀 Developed with ❤️ using Streamlit + OpenCV</center>", unsafe_allow_html=True)
+st.markdown("<center>🚀 Developed with using Streamlit + OpenCV</center>", unsafe_allow_html=True)
