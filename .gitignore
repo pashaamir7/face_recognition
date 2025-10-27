@@ -1,0 +1,22 @@
+# Ignore Python environment folders
+venv/
+env/
+Lib/
+Scripts/
+
+# Ignore data and models
+data/
+models/
+
+# Ignore large binaries
+*.pickle
+*.pkl
+*.pyd
+*.h5
+*.pt
+*.mp4
+*.avi
+
+# Cache and build
+__pycache__/
+*.pyc
